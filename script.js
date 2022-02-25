@@ -33,7 +33,8 @@ if(localStorage.getItem("task-list")){
     })
 }
 
-addBtn.addEventListener("click", (e) => {
+input.addEventListener("keydown", (e) => {
+if(e.key!=="Enter") return;
    let task = input.value;
    if (!task) return;
    createTask(task, "todo");

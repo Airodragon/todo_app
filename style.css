@@ -85,7 +85,6 @@ body{
 .task-area > ul{
     width: 100%;
     font-size: 15px;
-    color: #95a5a6;
     padding: 0;
 }
 
@@ -94,7 +93,7 @@ body{
 }
 
 .completed{
-    margin-top: 60px;
+    margin-top: 15px;
 }
 
 .task-li{
@@ -143,7 +142,7 @@ body{
     cursor: pointer;
 }
 .toogler-cont > *:hover{
-    color: brown;
+    color: #1abc9c;
 }
 .toogler-cont{
     margin-top: 0.2rem;
@@ -160,6 +159,12 @@ body{
     width: 0.1rem;
     height: 100%;
     background-color: #95a5a6;
+}
+.todo{
+    color: #444;
+}
+.completed{
+    color: #95a5a6;
 }
 
 
